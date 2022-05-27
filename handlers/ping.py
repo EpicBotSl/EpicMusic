@@ -55,7 +55,7 @@ async def help(client: Client, message: Message):
         caption=" ᴩɪɴɢɪɴɢ... ",
     )
     await rahul.edit_text(
-        f"""<b> ᴩᴏɴɢ ʙᴀʙʏ ! </b>\n  🎵 `{resp} ᴍs`\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:</u></b>\n\n• ᴜᴩᴛɪᴍᴇ : {bot_uptime}\n• ᴄᴩᴜ : {cpu}%\n• ᴅɪsᴋ : {disk}%\n• ʀᴀᴍ : {mem}""",
+        f"""<b> ᴩᴏɴɢ ! </b>\n  🎵 `{resp} ᴍs`\n\n<b><u>{BOT_NAME} sʏsᴛᴇᴍ sᴛᴀᴛs:</u></b>\n\n• ᴜᴩᴛɪᴍᴇ : {bot_uptime}\n• ᴄᴩᴜ : {cpu}%\n• ᴅɪsᴋ : {disk}%\n• ʀᴀᴍ : {mem}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -63,7 +63,7 @@ async def help(client: Client, message: Message):
                         " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        " sᴏᴜʀᴄᴇ ", url="https://github.com/Captainamarica/NIGHT-VISSION-VC"
+                        " More Bots ", url="https://t.me/NightVission"
                     )
                 ]
             ]
