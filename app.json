@@ -1,9 +1,9 @@
 {
-  "name": "Night Vission ᴍᴜsɪᴄ",
+  "name": "Epic Music",
   "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/Captainamarica/FallenMusic",
+  "repository": "https://github.com/EpicBotSl/EpicMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
