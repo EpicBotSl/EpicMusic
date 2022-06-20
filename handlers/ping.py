@@ -49,7 +49,7 @@ async def help(client: Client, message: Message):
     start = datetime.now()
     end = datetime.now()
     resp = (end - start).microseconds / 1000
-    await message.reply_sticker("CAACAgIAAxkBAAEE595imgABu95vmKt8DKmJ6kQZrPo8SncAApxcAQABY4tGDNr3iPy7HfBSJAQ")
+    await message.reply_sticker("CAACAgUAAxkBAAEFFdJisHcXrQZdD6l32JJPM0xg9RwWrQACUgUAAhzhiFX8K8u4AiS1cygE")
     rahul = await message.reply_photo(
         photo=f"{PING_IMG}",
         caption=" ᴩɪɴɢɪɴɢ... ",
@@ -63,7 +63,7 @@ async def help(client: Client, message: Message):
                         " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        " More Bots ", url="https://t.me/NightVission"
+                        " More Bots ", url="https://t.me/EpicBotsSl"
                     )
                 ]
             ]
